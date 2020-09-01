@@ -1,2 +1,2 @@
 *.js eol=lf
-locales/*.json linguist-generated=true
+**/locales/*.json linguist-generated=true
