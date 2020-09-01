@@ -2,7 +2,7 @@
   "lighthouse-core/audits/accessibility/accesskeys.js | description": {
     "message": "تتيح مفاتيح الوصول للمستخدمين التركيز بسرعة على جزء من الصفحة. للانتقال إلى الموضع الصحيح من الصفحة، يجب أن يكون كل مفتاح وصول فريدًا. [مزيد من المعلومات](https://web.dev/accesskeys/)"
   },
-  "lighthouse-core/audits/accessibility/accesskeys.js | failureTitle": {
+  "lighthouse-adsadasdsadcore/audits/accessibility/accesskeys.js | failureTitle": {
     "message": "قيم `[accesskey]` هي غير فريدة"
   },
   "lighthouse-core/audits/accessibility/accesskeys.js | title": {
