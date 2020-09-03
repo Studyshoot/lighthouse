@@ -98,7 +98,7 @@ npx -p @lhci/cli lhci collect --url https://example.com -n 5
 npx -p @lhci/cli lhci upload --target filesystem --outputDir ./path/to/dump/reports
 ```
 
-> Note: you muse have [Node](https://nodejs.org/en/download/package-manager/) and [npx](https://www.npmjs.com/package/npx#install) installed.
+> Note: you must have [Node](https://nodejs.org/en/download/package-manager/) installed.
 
 You can then process the reports that are output to the filesystem. Read the [Lighthouse CI documentation](https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/configuration.md#outputdir) for more.
 
@@ -110,7 +110,7 @@ const medianResult = JSON.parse(fs.readFileSync(medianEntry.jsonPath, 'utf-8'));
 console.log('Median performance score was', medianResult.categories.performance.score * 100);
 ```
 
-You can also direct `lighthouse-cli` to use PageSpeedInsights:
+You can also direct `lighthouse-ci` to use PageSpeedInsights:
 
 ```bash
 npx -p @lhci/cli lhci collect --url https://example.com -n 5 --mode psi --psiApiKey xXxXxXx
