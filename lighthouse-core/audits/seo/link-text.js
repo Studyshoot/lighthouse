@@ -73,6 +73,12 @@ const BLOCKLIST = new Set([
   'mer',
   'mer info',
   'mer information',
+    // Arabic
+  'اضغط هنا',
+  'من هنا',
+  'هنا',
+  'قراءة المزيد',
+  'المزيد',
 ]);
 const i18n = require('../../lib/i18n/i18n.js');
 
